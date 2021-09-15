@@ -20,7 +20,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Train contrastive model')
     parser.add_argument('--name', type=str, default='PaviaU',
                         help='Dataset name')
-    parser.add_argument('--epoch', type=int, default=1,
+    parser.add_argument('--epoch', type=int, default=100,
                         help='Training epoch')
     parser.add_argument('--gpu', type=int, default=-1,
                         help='gpu id')
